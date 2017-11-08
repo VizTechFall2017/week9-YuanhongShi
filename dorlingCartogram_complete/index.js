@@ -55,6 +55,9 @@ queue()
                                                     //note that long is negative because it is a W long point!
         .enter()
         .append('circle')
+        .attr('id', function(d){
+            return d.name;
+        })
         .attr('cx', function (d){
             return d.center[0];
         })
@@ -66,7 +69,10 @@ queue()
             return sizeScale(stateLookup.get(d.name))
         })
         .attr('fill','purple')
-        .attr('fill-opacity',.7);
+        .attr('fill-opacity',.7)
+        .on('mouseover', function(d){
+            console.log(d.name);
+        });
 
   });
 
