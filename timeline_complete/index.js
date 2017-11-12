@@ -1,6 +1,8 @@
 var width = document.getElementById('svg1').clientWidth;
 var height = document.getElementById('svg1').clientHeight;
 
+console.log(width);
+
 var marginLeft = 100;
 var marginTop = 100;
 

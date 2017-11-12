@@ -44,7 +44,7 @@ queue()
         sizeScale.domain([0, d3.max(populationData.map(function(d){return +d.population}))]);
 
         var centroids = mapData.features.map(function (feature){
-            return {name: feature.properties.NAME, center: path.centroid(feature)};
+            return {name: feature.properties.NAME, center: path.centroid(feature)};//RETURN TWO VALUES;
         });
 
 
