@@ -28,7 +28,7 @@
 
     <div class ="aspectwrapper">
         <div> <p class="anim-typewriter  line-1">
-            <b>Architecture information around the Worldwide</b>
+            <b>Architecture information throughout USA</b>
         </p>
         </div>
         <div style="color: darkgray;font-family: Arcon;font-size: 15px; float: right;" class="line-2">
@@ -38,17 +38,21 @@
     </div>
 
 <div class="row">
-    <div class="controlBox">
-        <label for="city">CITIES</label>
+    <form class="controlBox">
+        <label for="city">CITIES IN USA</label>
 
         <select id="city">
-            <option>BOSTON IN MA, USA</option>
-            <option>NEW YORK IN NY, USA</option>
-            <option>SHANGHAI IN SHANGHAI, CHINA</option>
-            <option>TOKYO IN TOKYO, JAPAN</option>
+            <option>SELECT THE CITY</option>
+            <option>BOSTON IN MA</option>
+            <option>NEW YORK IN NY</option>
+            <option>CHICAGO IN IL</option>
+            <option>LOS ANGELES IN CA</option>
+            <option>PHOENIX IN AZ</option>
+            <option>SEATTLE IN WA</option>
         </select>
 
-    </div>
+    </form>
+
     <div class="svgBox">
 
         <svg width="100%" height="100%" id="svg1"></svg>
@@ -71,8 +75,12 @@
             <button class = "button" id="Compare_Data"><span>Compare Data</span></button>
         </div>
 
-
     </div>
+
+    <div id="copyRight">
+        Copyright @ Yuanhong Shi Northeastern University
+    </div>
+
 
 
     <style>
@@ -104,6 +112,7 @@
         top:20px;
         width: 35em;
         margin-right: 5%;
+        margin-top:5px;
         border-right: 2px solid rgba(255,255,255,.75);
         font-size: 100%;
         text-align: right;

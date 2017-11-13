@@ -5,10 +5,10 @@ em is a computer unit, which equals 16px
 
 .controlBox{
     width: 15%;
-    height: 800px;
+    height: 650px;
     display:inline-block;
     float: left;
-    margin-left:5%;
+    margin-left:2%;
 }
 
 #city{
@@ -16,28 +16,29 @@ em is a computer unit, which equals 16px
     color:white;
     overflow:hidden;
     height:30px;
-    -webkit-border-radius: 5px;
+
+  /*  -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
-    border-radius: 5px;
+    border-radius: 5px;*/
 }
 
 #city select{
-    background: transparent;
+    background: #325093;
     height: 30px;
 
 }
 
 .svgBox{
     width: 35%;
-    height: 800px;
+    height: 650px;
     display:inline-block;
     float:left;
+    margin-left:2%;
 }
 
 
 
 .buttonBox{
-
     display:inline-block;
     float:right;
     margin-right: 5%;
@@ -89,4 +90,12 @@ em is a computer unit, which equals 16px
     fill: none;
     stroke: gray;
     stroke-width: 1.5;
+}
+
+#copyRight {
+    background-color:transparent;
+    color:#325093;
+    clear:both;
+    text-align:center;
+    padding:5px;
 }
